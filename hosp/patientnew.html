@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>LOGIN </title>
+
+</head>
+
+ <style>
+
+ body {
+  position:absolute;
+  background-repeat: no-repeat;
+background-size:400% 400%;
+  margin:0px;
+  padding:0px;
+}
+
+  .box{
+ font-family:Stencil Std, fantasy;
+  width: 50%;
+  height:50%;
+  border: 10px  solid white;
+  position:relative;
+ margin:0px;
+  padding:0px;
+ top:50px;
+ left:350px;
+    ;
+   }
+
+  .box input[type = "text"]{
+  background-color: #ffe6cc;
+  width: 90%;
+  padding: 12px 20px;
+   font-size:50px;
+  margin: 8px 0;
+font-family:Stencil Std, fantasy
+  }
+
+ .box input[type = "number"]
+ {
+ width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #ffe6cc;
+  font-size:50px;
+  font-family:Stencil Std, fantasy
+
+  }
+
+  .box button{
+  background-color: orange;
+            border: none;
+            text-decoration: none;
+
+            padding: 20px 20px;
+            margin: 20px 20px;
+            cursor: pointer;
+font-family:Stencil Std, fantasy
+
+  }
+
+img{
+position:absolute;
+width:20%;
+height:40%;
+top:200px;
+left:400px;
+}
+  .box label{
+  color: white;
+  font-family:Stencil Std, fantasy;
+  font-size:50px;
+  padding: 8px;
+    border: 3px;
+  }
+
+</style>
+<body background="img/M.jpg">
+
+<form class="box" action="newpatient.php"  align="center">
+     <label>ENTER THE PATIENT DETAILS</color></label>
+    <input type="number" placeholder="PATIENT ID" name="id" required>	
+    <input type="text" placeholder="PATIENT NAME" name="name" required>
+    <input type="text" placeholder="DOB" name="date" required>
+    <input type="number" placeholder="AGE" name="age" required>
+    <input type="text" placeholder="SEX" name="sex" required>
+    <input type="text" placeholder="BLOOD GROUP" name="blood" required>
+    <input type="text" placeholder="ADDRESS" name="address" required>
+    <input type="number" placeholder="CONTACT NO:" name="contact" required>
+    <input type="text" placeholder="MAIL ID" name="mail" required>    
+    <input type="number" placeholder="EMERGENCY CONTACT NO:" name="emergency" required>
+    <input type="text" placeholder="HISTORY OF ILLNESS" name="history" required>
+    <input type="text" placeholder="ADMITTED DATE" name="admitdate" required>
+    <input type="text" placeholder="ADMITTED BY" name="admitby" required>
+    <input type="number" placeholder="ROOM NO" name="room" required>
+    <input type="text" placeholder="DIAGNOSED WITH" name="diagnosed" required>
+    <input type="text" placeholder="TREATMENT FROM DOCTOR" name="doctor" required>
+    <input type="text" placeholder="DISCHARGE DATE" name="discharge" required>
+
+
+
+
+    <button type ="submit" formaction="newpatient.php"> SUBMIT THE DATA </button>
+</form>
+
+</body>
+</html>

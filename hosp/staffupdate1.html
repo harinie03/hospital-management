@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>LOGIN </title>
+
+</head>
+
+ <style>
+
+ body {
+  position:absolute;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  margin:0px;
+  padding:0px;
+}
+
+  .box{
+ font-family:Stencil Std, fantasy;
+  width: 50%;
+  height:50%;
+  border: 10px  solid white;
+  position:relative;
+ margin:0px;
+  padding:0px;
+ top:40px;
+ left:320px;
+    ;
+   }
+
+  .box input[type = "text"]{
+  background-color: #ffe6cc;
+  width: 90%;
+  padding: 12px 20px;
+   font-size:50px;
+  margin: 8px 0;
+font-family:Stencil Std, fantasy
+  }
+
+ .box input[type = "number"]
+ {
+ width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #ffe6cc;
+  font-size:50px;
+  font-family:Stencil Std, fantasy
+
+  }
+
+  .box button{
+  background-color: orange;
+            border: none;
+            text-decoration: none;
+
+            padding: 20px 20px;
+            margin: 20px 20px;
+            cursor: pointer;
+font-family:Stencil Std, fantasy
+
+  }
+img{
+position:absolute;
+width:20%;
+height:40%;
+top:100px;
+left:400px;
+}
+
+
+  .box label{
+  color: white;
+  font-family:Stencil Std, fantasy;
+  font-size:50px;
+  padding: 8px;
+    border: 3px;
+  }
+
+</style>
+<body background="img/u.jpg">
+
+<form class="box" action="updatestaff.php"  align="center">
+     <label>ENTER THE STAFF DETAILS</color></label>
+    <input type="number" placeholder="STAFF ID" name="id1" required>	
+    <input type="text" placeholder="ADDRESS" name="address1" required>
+     <input type="text" placeholder="MAIL ID" name="mail1" required>
+    <input type="text" placeholder="CONTACT NO" name="contact1" required>
+
+
+
+    <button type ="submit" formaction="updatestaff1.php"> SUBMIT THE DATA </button>
+</form>
+
+</body>
+</html>
